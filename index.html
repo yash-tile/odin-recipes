@@ -3,17 +3,42 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Recipes Project</title>
+	<title>Odin Recipes</title>
+	<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-	<h1>Odin Recipes</h1>
-	<section>
-		<ul>
-			<li><a href="./recipes/butter_chicken.html">Butter Chicken</a></li>
-			<li><a href="./recipes/biryani.html">Chicken Biryani</a></li>
-			<li><a href="./recipes/fish.html">Indian Style Fish Curry</a></li>
-			<li><a href="./recipes/pizza.html">Classic Pizza</a></li>
+	<header class="header">
+        <h1 class="header-heading">Odin Recipes</h1>
+        <nav class="header-nav">
+            <a href="./index.html">Home</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+
+	<section class="container">
+		<h2>Featured Recipes</h2>
+		<ul class="recipe-list">
+			<a href="./recipes/butter_chicken.html">
+				<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2023%2F02%2F07%2F5830864-makhani-chicken-indian-butter-chicken-MotherSarah-1x1-1.jpg&q=60&c=sc&orient=true&poi=auto&h=512" alt="Butter Chicken Image">
+				<li>Butter Chicken</li>
+			</a>
+			<a href="./recipes/biryani.html">
+				<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9307736.jpg&q=60&c=sc&orient=true&poi=auto&h=512" alt="Chicken Biryani Image">
+				<li>Biryani</li>
+			</a>
+			<a href="./recipes/fish.html">
+				<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F779645.jpg&q=60&c=sc&orient=true&poi=auto&h=512" alt="Indian-Style Fish Curry Image">
+				<li>Indian Fish Curry</li>
+			</a>
+			<a href="./recipes/pizza.html">
+				<img src="https://www.allrecipes.com/thmb/ULiSEmH8Tje7Hh-TW1aN2P8dC98=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/240376-homemade-pepperoni-pizza-Beauty-3x4-1-6ae54059c23348b3b9a703b6a3067a44.jpg" alt="Margherita Pizza Image">
+				<li>Classic Pizza</li>
+			</a>
 		</ul>
 	</section>
+
+	<footer>
+		<p>&copy; 2024 Odin Recipes. All rights reserved.</p>
+	</footer>
 </body>
 </html>

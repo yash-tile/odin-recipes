@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+    background-color: #333; /* Set your desired background color */
+    color: #FFEDED; /* Set your desired text color */
+}
+
+.header-heading {
+    margin: 0;
+    font-size: 1.5em; /* Set your desired font size */
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav a {
+    color: #FFEDED;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.header-nav a:hover {
+    border-bottom: 4px solid red;
+}
+
+.container {
+    margin: 2% 5%;
+}
+
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+}
+
+.recipe-list a {
+    text-decoration: none;
+    color: #333; /* Set your desired text color */
+    border: 1px solid #ddd; /* Set your desired border color */
+    border-radius: 8px; /* Set your desired border radius */
+    padding: 15px;
+    text-align: center;
+}
+
+.recipe-list img {
+    width: 200px; 
+    height: 150px; 
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.recipe-list a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Set your desired box shadow values */
+}
+
+.recipe-box{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.recipe-box img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    text-align: center;
+    padding: 5px;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}
