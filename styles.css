@@ -10,13 +10,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 2% 5%;
-    background-color: #333; /* Set your desired background color */
-    color: #FFEDED; /* Set your desired text color */
+    background-color: #333; 
+    color: #FFEDED; 
 }
 
 .header-heading {
     margin: 0;
-    font-size: 1.5em; /* Set your desired font size */
+    font-size: 1.5em; 
 }
 
 .header-nav {
@@ -47,9 +47,9 @@ body {
 
 .recipe-list a {
     text-decoration: none;
-    color: #333; /* Set your desired text color */
-    border: 1px solid #ddd; /* Set your desired border color */
-    border-radius: 8px; /* Set your desired border radius */
+    color: #333;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
     padding: 15px;
     text-align: center;
 }
@@ -61,7 +61,7 @@ body {
 }
 
 .recipe-list a:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Set your desired box shadow values */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
 }
 
 .recipe-box{
@@ -81,8 +81,8 @@ body {
 }
 
 footer {
-    background-color: #333; /* Set your desired background color */
-    color: #fff; /* Set your desired text color */
+    background-color: #333; 
+    color: #fff; 
     text-align: center;
     padding: 5px;
     position:fixed;
